@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(236, 234, 234);
+    margin: auto;
+    padding: auto;
+}
+.artical-mail{
+    display: flex;
+    margin: 20px;
+}
+.mail-article-litle{
+    margin-left: 50px;
+    margin-top: 170px;
+    width: 500px;
+    font-size: 20px;
+}
+.mail-article-litle p{
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+}
+.mail-article-litle button{
+    background-color:rgb(193,156,120);
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+.mail-article-litle button a{
+    text-decoration-line: none;
+    color: white;
+}
+.mail-article-litle button:hover{
+    background-color: rgb(202, 199, 199);
+    color: rgb(17, 11, 11);
+}
+.mail-article{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+}
+.img-article{
+    height: 500PX;
+    width: 50%;
+
+}
+.img-article img:hover{
+filter: blur(1px);
+}
+.footer{
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
